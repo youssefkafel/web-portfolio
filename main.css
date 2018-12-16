@@ -1,3 +1,15 @@
-body {
-    background-color: #F8F8FF 
+.titles {
+    text-align: center;
 }
+
+.avatar {
+    align-items: center; /* for vertical align */
+    background: red;
+    display: flex;
+    height: 250px;
+    /* justify-content: center; <- for horizontal align */
+    width: 250px;
+}
+
+
+
