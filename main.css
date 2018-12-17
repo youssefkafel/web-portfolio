@@ -1,15 +1,33 @@
 .titles {
     text-align: center;
+    padding-top: 10rem;
 }
 
 .avatar {
-    align-items: center; /* for vertical align */
-    background: red;
+    align-items: center; 
     display: flex;
     height: 250px;
-    /* justify-content: center; <- for horizontal align */
     width: 250px;
-    
+}
+
+.graphicImg {
+    margin-bottom: 0rem;
+    max-width: 850px;
+}
+
+.graphic {
+    margin: 0 auto;
+    position: relative;
+    padding: 0rem 0rem;
+    display: block;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+.tables {
+    margin-top: -1.625rem;
+    background-color: #904AF6;
+    color: white;
 }
 
 
