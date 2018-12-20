@@ -69,7 +69,6 @@ html {
     padding-left: 12.5%;
     width: 16%;
     text-align: center;
-    list-style-position: inside;
     z-index: 999;
     position: relative;
 }
@@ -79,7 +78,6 @@ html {
     padding-left: 12.5%;
     width: 16%;
     text-align: center;
-    list-style-position: inside;
     z-index: 999;
     position: relative;
     
@@ -97,6 +95,7 @@ html {
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    text-align: center;
 }
 
 .logo {
@@ -116,6 +115,15 @@ html {
     text-decoration: none;
     color: #904AF6;
 }
+
+li {
+    text-align: center;
+    position: relative;
+    list-style: none;
+    display: table;
+}
+
+
 
 
 
