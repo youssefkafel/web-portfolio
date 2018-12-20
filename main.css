@@ -1,3 +1,9 @@
+html {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 .titles {
     text-align: center;
     padding-top: 10rem;
@@ -24,11 +30,81 @@
     padding-top: 6rem;
 }
 
-.tables {
-    margin-top: -1.625rem;
+.header {
+    margin-top: -.5rem;
     background-color: #904AF6;
     color: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    height: 30rem;
+    overflow: auto;
+    z-index: 1;
 }
+
+.headerAndTables {
+    align-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.headerWrapper {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.designer {
+    float: left;
+    padding-left: 12.5%;
+    width: 16%;
+    text-align: center;
+    z-index: 999;
+    position: relative;
+    
+}
+
+.developer {
+    float: left;
+    padding-left: 12.5%;
+    width: 16%;
+    text-align: center;
+    list-style-position: inside;
+    z-index: 999;
+    position: relative;
+}
+
+.mentor {
+    float: left;
+    padding-left: 12.5%;
+    width: 16%;
+    text-align: center;
+    list-style-position: inside;
+    z-index: 999;
+    position: relative;
+    
+}
+
+.allTables {
+    margin-top: -8rem;
+    z-index: 998;
+    background-color: white;
+    position: absolute;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 5%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.logo {
+    float: left;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
 
 
 
