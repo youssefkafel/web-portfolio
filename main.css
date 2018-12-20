@@ -117,12 +117,22 @@ html {
 }
 
 li {
-    text-align: center;
     position: relative;
-    list-style: none;
-    display: table;
+    vertical-align: middle;
+    list-style: square;
+    display: list-item;
 }
 
+#tablesList {
+    text-align: center;
+    vertical-align: center;
+    display: table-cell;
+    position: relative;
+}
+
+.devList {
+    padding-left: 75px;
+}
 
 
 
